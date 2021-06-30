@@ -1,0 +1,83 @@
+.wrapper{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "menu header suggestion"
+    "menu focus suggestion_1"
+    "menu focus_1 suggestion_2"
+    "menu focus_2 suggestion_3"
+
+}
+
+h1{
+    color:cornflowerblue;
+    text-align:center;
+    background: img src=""
+}
+
+h2{
+    color:orangered;
+    text-align: center;
+}
+
+ul{
+    /*width: 100%;-->*/
+    float:left;
+    list-style-type: none;
+}
+
+.menu{
+    grid-area: menu; 
+}
+
+.suggestion{
+
+    float: right;
+    text-align:justify;
+    grid-area: suggestion;
+}
+.suggestion_1{
+
+    float: right;
+    text-align:justify;
+    grid-area: suggestion_1;
+}
+.suggestion_2{
+
+    float: right;
+    text-align:justify;
+    grid-area: suggestion_2;
+}
+.suggestion_3{
+
+    float: right;
+    text-align:justify;
+    grid-area: suggestion_3;
+}
+
+.focus{
+    width: 100%;
+    float:center;
+    text-align: center;
+    grid-area: focus;
+}
+.focus_1{
+    width: 100%;
+    float:center;
+    text-align: center;
+    grid-area: focus_1;
+}
+.focus_2{
+    width: 100%;
+    float:center;
+    text-align: center;
+    grid-area: focus_2;
+}
+
+.moods{
+    width: 100%;
+    float:center;
+    border: 2px solid black;
+    text-align: center;
+}
